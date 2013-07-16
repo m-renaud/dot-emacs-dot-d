@@ -1,0 +1,13 @@
+modules/mrr-erc.el
+url/*
+ede-projects.el
+ac-comphist.dat
+.emacs.desktop
+.org-id-locations
+auto-save-list
+elpa/*
+filesets-cache.el
+savehist
+saveplace
+semanticdb/*
+tramp

@@ -1,0 +1,41 @@
+This directory is used to store my personal emacs configuration.  Below is
+an outline of the layout of the directory structure...
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+init.el
+
+- mostly sources other files
+- sets directory variables for where to find stuff
+- add to load-path list
+- add 'marmalade' package archive
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+modules/
+
+- this directory houses most of the configurations
+- they are broken down into the 'module' that they are related to
+- browse through these to see whats in each one
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+vendor/
+
+- holds packages that are not available through the repository
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+personal/
+
+- holds your personal elisp code 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+themes/
+
+- personal themes directory
+- my theme alkali is stored in there
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+elpa/
+
+- directory where downloaded packages are stored
+- you normally won't have to touch this
+
+

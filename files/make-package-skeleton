@@ -1,0 +1,11 @@
+NAME=
+VERSION=
+INSTALL_DIR=usr/local/include/
+
+install:
+	mkdir -p $(DESTDIR)/$(INSTALL_DIR)
+	cp *.hxx $(DESTDIR)/$(INSTALL_DIR)
+
+package:
+	rm -f ../$(NAME)-$(VERSION).tar.gz
+	tar cvzf ../$(NAME)-$(VERSION).tar.gz -C ../ $(NAME)/
